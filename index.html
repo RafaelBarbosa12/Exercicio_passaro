@@ -93,6 +93,7 @@
                     passarinho.ida = true;
                 }
                 if (passarinho.x < 700 && passarinho.ida === true) {
+                    console.log("o pássaro se movimenta para a direita")
                     passarinho.x += 3;
                 }
                 if (passarinho.x === 700) {
@@ -100,6 +101,7 @@
                     passarinho.ida = false;
                 }
                 if (passarinho.x > 100 && passarinho.ida === false) {
+                    console.log("o pássaro se move para a esquerda")
                     passarinho.x -= 3;
                 }
             }
